@@ -1,0 +1,40 @@
+.array-container {
+  position: absolute;
+  left: 3vw;
+  top: 25vh;
+  /* display: inline-flex; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: row; */
+}
+
+.array-bar {
+  display: inline-block;
+  width: 4px;
+  border-radius: 2px;
+  margin: 0 1px;
+}
+
+.button-container {
+  position: absolute;
+  border-right: solid #393f4d 1px;
+  height: 130px;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 150px;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 75px;
+  border: solid #393f4d 1px;
+  background-color: #393f4d;
+}
+
+.button-text {
+  color: #d4d4dc;
+  font-size: 14px;
+}
